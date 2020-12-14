@@ -1,0 +1,6 @@
+behavior_google:
+  js:
+    js/farmOS.map.behaviors.google.js: { }
+  dependencies:
+    - farm_map/farm_map
+    - farm_map_google/google

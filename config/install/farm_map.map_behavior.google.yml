@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - farm_map_google
+id: google
+label: Google
+description: 'Displays Google imagery layers.'
+library: 'farm_map_google/behavior_google'
+settings: { }
