@@ -1,0 +1,5 @@
+/docker/db
+/docker/www
+/node_modules
+.project
+/farm_map_google/js

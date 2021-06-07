@@ -1,0 +1,19 @@
+{
+  "name": "paul121/farm_map_google",
+  "description": "Google maps integration with farmOS",
+  "type": "drupal-module",
+  "homepage": "https://github.com/paul121/farm_map_google",
+  "authors": [
+    {
+      "name": "paul121",
+      "homepage": "https://github.com/paul121",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/paul121/farm_map_google/issues",
+    "source": "https://github.com/paul121/farm_map_google"
+  },
+  "license": "MIT",
+  "minimum-stability": "dev"
+}
