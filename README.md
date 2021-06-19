@@ -2,6 +2,8 @@
 
 A contrib module for [farmOS](https://farmos.org/) providing Google maps layers.
 
+![image](https://user-images.githubusercontent.com/30754460/122650561-88244300-d0e8-11eb-8af8-893952e2bbda.png)
+
 *Note: Some branches and tags include only the built module. See the [2.x branch][2.x branch] for the full source code.*
 
 ## Installation
@@ -14,6 +16,10 @@ drush en farm_map_google
 ```
 
 *Available released versions can be viewed at https://packagist.org/packages/paul121/farm_map_google*
+
+Set a Google maps API key by clicking on "Settings" on the top bar then navigating to the "Map" and "Google" tabs;
+
+![image](https://user-images.githubusercontent.com/30754460/122650472-059b8380-d0e8-11eb-8db1-40341b506f16.png)
 
 ## Development
 
@@ -33,7 +39,7 @@ npm install
 npm run dev
 ```
 
-Observe that Google maps layers are available in farmOS maps. e.g. http://localhost:8080/dashboard
+Observe that Google maps layers are available in farmOS maps. e.g. [http://localhost:8080/dashboard](http://localhost:8080/dashboard) - login: `admin`:`admin`.
 
 ### How do you push new versions?
 

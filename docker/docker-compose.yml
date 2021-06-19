@@ -29,7 +29,7 @@ services:
           echo "farmOS codebase not detected. Copying from pre-built files in the Docker image."
           cp -rp /var/farmOS/. /opt/drupal
           wait_db_ready
-          su www-data -s /bin/bash -c 'drush site-install farm --locale=en --db-url=pgsql://farm:farm@db/farm --site-name=Test0 --account-name=root --account-pass=test'
+          su www-data -s /bin/bash -c 'drush site-install --locale=en --db-url=pgsql://farm:farm@db/farm --site-name=Test0 --account-name=admin --account-pass=admin'
         fi
 
         wait_db_ready
