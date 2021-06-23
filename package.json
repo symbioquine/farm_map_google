@@ -1,6 +1,6 @@
 {
   "name": "farm_map_google",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google maps integration with farmOS",
   "license": "MIT",
   "repository": {
@@ -28,6 +28,6 @@
     "webpack-dev-server": "^4.0.0-beta.2"
   },
   "dependencies": {
-    "@farmos.org/farmos-olgm": "^1.7.0-farmos1"
+    "@farmos.org/farmos-olgm": "1.7.0-farmos1"
   }
 }
