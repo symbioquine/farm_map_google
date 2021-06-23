@@ -1,18 +1,23 @@
 {
-  "name": "paul121/farm_map_google",
+  "name": "symbioquine/farm_map_google",
   "description": "Google maps integration with farmOS",
   "type": "drupal-module",
-  "homepage": "https://github.com/paul121/farm_map_google",
+  "homepage": "https://github.com/symbioquine/farm_map_google",
   "authors": [
     {
       "name": "paul121",
       "homepage": "https://github.com/paul121",
       "role": "Maintainer"
+    },
+    {
+      "name": "symbioquine",
+      "homepage": "https://github.com/symbioquine",
+      "role": "Maintainer"
     }
   ],
   "support": {
-    "issues": "https://github.com/paul121/farm_map_google/issues",
-    "source": "https://github.com/paul121/farm_map_google"
+    "issues": "https://github.com/symbioquine/farm_map_google/issues",
+    "source": "https://github.com/symbioquine/farm_map_google"
   },
   "license": "MIT",
   "minimum-stability": "dev"

@@ -1,11 +1,11 @@
 {
   "name": "farm_map_google",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Google maps integration with farmOS",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paul121/farm_map_google.git"
+    "url": "https://github.com/symbioquine/farm_map_google.git"
   },
   "scripts": {
     "lint": "eslint src",

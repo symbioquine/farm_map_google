@@ -4,18 +4,20 @@ A contrib module for [farmOS](https://farmos.org/) providing Google maps layers.
 
 ![image](https://user-images.githubusercontent.com/30754460/122650561-88244300-d0e8-11eb-8af8-893952e2bbda.png)
 
-*Note: Some branches and tags include only the built module. See the [2.x branch][2.x branch] for the full source code.*
+*Note: Some branches and tags include only the built module. See the [2.x-development branch][2.x-development branch] for the full source code.*
+
+*Licensing Note: The Javascript source code in this repository is MIT licensed, but the yaml and php source is GPLv3 licensed as some derives from the Drupal examples.*
 
 ## Installation
 
 Use Composer and Drush to install farm_map_google in farmOS 2.x;
 
 ```sh
-composer require paul121/farm_map_google
+composer require drupal/farm_map_google
 drush en farm_map_google
 ```
 
-*Available released versions can be viewed at https://packagist.org/packages/paul121/farm_map_google*
+*Available released versions can be viewed at https://www.drupal.org/project/farm_map_google*
 
 Set a Google maps API key by clicking on "Settings" on the top bar then navigating to the "Map" and "Google" tabs;
 
@@ -23,7 +25,7 @@ Set a Google maps API key by clicking on "Settings" on the top bar then navigati
 
 ## Development
 
-From the [2.x branch][2.x branch] of this repository:
+From the [2.x-development branch][2.x-development branch] of this repository:
 
 **Start/recreate the farmOS container;**
 
@@ -43,7 +45,7 @@ Observe that Google maps layers are available in farmOS maps. e.g. [http://local
 
 ### How do you push new versions?
 
-From the [2.x branch][2.x branch] of this repository:
+From the [2.x-development branch][2.x-development branch] of this repository:
 
 ```sh
 # Add/commit your changes
@@ -53,8 +55,8 @@ npm --no-git-tag-version version --force patch
 git commit
 # Tag the release with the unbuilt prefix
 git tag unbuilt-v9000.0.1
-# Push the 2.x branch and new tag
-git push --atomic origin HEAD:2.x unbuilt-v9000.0.1
+# Push the 2.x-development branch and new unbuilt tag
+git push --atomic origin HEAD:2.x-development unbuilt-v9000.0.1
 ```
 
-[2.x branch]: https://github.com/paul121/farm_map_google/tree/2.x
+[2.x-development branch]: https://github.com/symbioquine/farm_map_google/tree/2.x-development
