@@ -1,0 +1,8 @@
+farm_map_google.settings:
+  type: config_object
+  label: 'Google Maps Settings'
+  mapping:
+    api_key:
+      type: string
+      label: 'Google Maps API Key'
+      description: 'The API key used to request Google Maps imagery layers.'

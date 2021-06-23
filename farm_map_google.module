@@ -1,0 +1,47 @@
+<?php
+
+/**
+ * @file
+ * The farm_map_google module.
+ */
+
+/**
+ * Implements hook_library_info_build().
+ */
+function farm_map_google_library_info_build() {
+
+  $libraries = [];
+
+  // Google maps js api base path.
+  $base_path = 'https://maps.googleapis.com/maps/api/js';
+
+  // Add a version.
+  // See https://developers.google.com/maps/documentation/javascript/versions
+  $version_param = '?v=weekly';
+
+  // Add an api key.
+  $api_key = \Drupal::config('farm_map_google.settings')->get('api_key');
+  $api_key_param = '&key=' . $api_key;
+
+  // Build the url.
+  $url = $base_path . $version_param . $api_key_param;
+
+  // Define the google library.
+  $libraries['google'] = [
+    'remote' => 'https://developers.google.com/maps/documentation/javascript/overview',
+    'license' => 'https://developers.google.com/maps/terms-20180207',
+    'version' => 3,
+    'js' => [
+      $url => [
+        'type' => 'external',
+        'weight' => -100,
+        'minified' => TRUE,
+      ],
+    ],
+    'dependencies' => [
+      'farm_map/farmOS-map',
+    ],
+  ];
+
+  return $libraries;
+}
