@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2021-08-26
+
+### Fixed
+
+- Change package to farmOS Contrib.
+
 ## [1.0.1] - 2021-06-23
 
 ### Fixed
@@ -18,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial Release
 
-[Unreleased]: https://github.com/symbioquine/farm_map_google/compare/unbuilt-v1.0.1...HEAD
+[Unreleased]: https://github.com/symbioquine/farm_map_google/compare/unbuilt-v1.0.2...HEAD
+[1.0.2]: https://github.com/symbioquine/farm_map_google/compare/unbuilt-v1.0.1...unbuilt-v1.0.2
 [1.0.1]: https://github.com/symbioquine/farm_map_google/compare/unbuilt-v1.0.0...unbuilt-v1.0.1
 [1.0.0]: https://github.com/symbioquine/farm_map_google/releases/tag/unbuilt-v1.0.0
