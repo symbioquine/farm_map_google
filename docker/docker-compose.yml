@@ -39,7 +39,7 @@ services:
 
             composer config repositories.farmos_dev_modules '{"type": "path", "url": "/farmos_dev_modules/farm_map_google"}'
 
-            composer require paul121/farm_map_google @dev
+            composer require symbioquine/farm_map_google @dev
 
             drush --root=/opt/drupal pm-enable farm_map_google
         EOF
