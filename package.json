@@ -1,6 +1,6 @@
 {
   "name": "farm_map_google",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Google maps integration with farmOS",
   "license": "MIT",
   "repository": {
