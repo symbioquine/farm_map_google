@@ -2,7 +2,7 @@
 
 A contrib module for [farmOS](https://farmos.org/) providing Google maps layers.
 
-![image](https://user-images.githubusercontent.com/30754460/122650561-88244300-d0e8-11eb-8af8-893952e2bbda.png)
+![image](https://github.com/symbioquine/farm_map_google/assets/30754460/a5148f18-ef7c-4745-9627-50082f34c6e3)
 
 *Note: Some branches and tags include only the built module. See the [2.x-development branch][2.x-development branch] for the full source code.*
 
@@ -10,7 +10,7 @@ A contrib module for [farmOS](https://farmos.org/) providing Google maps layers.
 
 ## Installation
 
-Use Composer and Drush to install farm_map_google in farmOS 2.x;
+Use Composer and Drush to install farm_map_google in farmOS 3.x;
 
 ```sh
 composer require drupal/farm_map_google
@@ -19,9 +19,9 @@ drush en farm_map_google
 
 *Available released versions can be viewed at https://www.drupal.org/project/farm_map_google*
 
-Set a Google maps API key by clicking on "Settings" on the top bar then navigating to the "Map" and "Google" tabs;
+Set a Google maps API key by clicking on "Setup" >> "Settings" in the left navigation bar then going to the "Map" and "Google" tabs;
 
-![image](https://user-images.githubusercontent.com/30754460/122650472-059b8380-d0e8-11eb-8db1-40341b506f16.png)
+![image](https://github.com/symbioquine/farm_map_google/assets/30754460/c3c45662-7ad7-431f-a032-827fa4fa1eaa)
 
 ## Development
 
